@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="paste_list">Colar Lista</string>
+    <string name="send">Enviar</string>
+    <string name="done">Feito</string>
+    <string name="select_all">Selecionar Tudo</string>
+    <string name="deselect_all">Desselecionar Tudo</string>
+    <string name="select_a_item">Selecione pelo menos um item</string>
+    <string name="no_clipboard">Não há nada copiado!</string>
+    <string name="error_click_item">Ocorreu um erro ao atualizar um item na lista</string>
+    <string name="undo">Desfazer</string>
+    <string name="shopping_list_title_placeholder">Faltam 3 itens</string>
+    <string name="font_size">Tamanho da Fonte</string>
+    <string name="small_font">Pequena</string>
+    <string name="medium_font">Média</string>
+    <string name="big_font">Grande</string>
+    <string name="item_name_placeholder">Nome do item</string>
+    <string name="add_item">Adicionar Item</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Adicionar</string>
+    <string name="new_item">Novo Item</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="exclude">"Excluir "</string>
+    <string name="no_item_selected">Nenhum item foi selecionado</string>
+    <string name="no_items_missing">Falta nenhum item</string>
+    <string name="one_item_missing">Falta 1 item</string>
+    <string name="missing">Faltam</string>
+    <string name="items">itens</string>
+</resources>

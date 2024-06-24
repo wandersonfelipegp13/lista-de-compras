@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/paste_list"
+        android:icon="@drawable/ic_paste"
+        android:title="@string/paste_list"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/ic_done"
+        android:title="@string/done"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/ic_send"
+        android:title="@string/send"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/select_all"
+        android:icon="@drawable/ic_select_all"
+        android:title="@string/select_all"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/deselect_all"
+        android:icon="@drawable/ic_deselect_all"
+        android:title="@string/deselect_all"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/add_item"
+        android:title="@string/add_item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/font_size"
+        android:title="@string/font_size"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/small_font"
+                android:title="@string/small_font"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/medium_font"
+                android:title="@string/medium_font"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/big_font"
+                android:title="@string/big_font"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

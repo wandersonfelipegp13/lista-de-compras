@@ -5,4 +5,4 @@ a simplicidade no uso.
 
 |             Tela Inicial             |              Tela de Compras         |
 | :----------------------------------: | :----------------------------------: |
-| ![](./screenshots/Screenshot_1.jpg)  | ![](./screenshots/Screenshot_2.jpg)  |
+| ![](./screenshots/Screenshot_1.png)  | ![](./screenshots/Screenshot_2.png)  |

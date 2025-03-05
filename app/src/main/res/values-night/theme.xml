@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryVariant">@color/black</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
 
-        <item name="colorSecondary">@color/black</item>
-        <item name="colorSecondaryVariant">@color/black</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
 
         <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
 
         <item name="android:statusBarColor">@color/black</item>
 
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@color/black</item>
 
         <!-- Prevents the AlertDialog background from turning a light purple color. -->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
 
-        <item name="popupMenuBackground">@color/white</item>
+        <item name="popupMenuBackground">@color/dark_gray</item>
 
         <item name="android:textColorHighlight">#A1A1B3</item>
 
@@ -31,7 +31,7 @@
     </style>
 
     <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
-        <item name="alertDialogStyle">@style/MaterialAlertDialog.App.Day</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App.Night</item>
     </style>
 
     <!--    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->

@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "br.com.wandersonfelipe.listadecompras"
-    compileSdk = 34
+    compileSdk = 35
 
     dataBinding {
         enable = true
@@ -21,9 +21,9 @@ android {
     defaultConfig {
         applicationId = "br.com.wandersonfelipe.listadecompras"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 2
-        versionName = "1.1.0"
+        versionName = "1.2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

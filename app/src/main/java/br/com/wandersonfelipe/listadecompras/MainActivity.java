@@ -196,6 +196,8 @@ public class MainActivity extends AppCompatActivity {
                     dialog.dismiss();
                 });
 
+                builder.setOnCancelListener(dialog -> adapter.notifyDataSetChanged());
+
                 recyclerView.scrollToPosition(position);
 
                 builder.create().show();

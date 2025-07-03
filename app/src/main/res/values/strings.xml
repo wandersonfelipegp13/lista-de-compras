@@ -21,7 +21,7 @@
     <string name="new_item">Novo Item</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
-    <string name="exclude">"Excluir "</string>
+    <string name="exclude">"Excluir"</string>
     <string name="no_item_selected">Nenhum item foi selecionado</string>
     <string name="no_items_missing">Falta nenhum item</string>
     <string name="one_item_missing">Falta 1 item</string>
